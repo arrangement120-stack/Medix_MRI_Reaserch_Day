@@ -1,0 +1,11 @@
+gradio>=5.0
+h5py>=3.10
+huggingface_hub>=0.25
+matplotlib>=3.8
+numpy>=1.26
+pandas>=2.2
+Pillow>=10
+runstats
+scikit-image>=0.23
+scipy>=1.11
+torch>=2.5
