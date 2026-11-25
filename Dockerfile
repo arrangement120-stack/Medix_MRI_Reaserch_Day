@@ -19,7 +19,7 @@ RUN pip install --no-cache-dir --upgrade pip && \
     https://github.com/facebookresearch/fastMRI/archive/refs/heads/main.zip
 
 # نسخ ملفات التطبيق والـ CLI
-COPY app.py medix_engine.py medix_cli.py ./
+COPY app.py medix_engine.py medix_terminal_cli.py ./
 
 # إعدادات التشغيل داخل الحاوية (محليًا بدون حد لحجم الملفات)
 ENV GRADIO_SERVER_NAME="0.0.0.0" \
