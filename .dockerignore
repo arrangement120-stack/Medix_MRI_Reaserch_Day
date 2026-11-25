@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.venv/
+venv/
+*.h5
+*.npz
+*.zip
+*.docx
+*.pdf
+*.ipynb
+medix_cli_out/
+results/
